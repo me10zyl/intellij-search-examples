@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.yilnz.intellij.searchExamples</id>
+    <name>Plugin display name here</name>
+    <vendor email="me10zyl@qq.com" url="https://github.com/me10zyl">me10zyl</vendor>
+
+    <description><![CDATA[
+    S.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.yilnz.intellij.searchExamples.SearchExamples"
+                class="com.yilnz.intellij.searchExamples.SearchExamples" text="Search Examples"
+                description="Search Java Examples">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
