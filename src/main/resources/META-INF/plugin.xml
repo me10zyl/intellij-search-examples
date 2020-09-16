@@ -1,11 +1,12 @@
 <idea-plugin>
     <id>com.yilnz.intellij.searchExamples</id>
-    <name>Plugin display name here</name>
+    <name>Search Examples</name>
     <vendor email="me10zyl@qq.com" url="https://github.com/me10zyl">me10zyl</vendor>
 
     <description><![CDATA[
-    S.<br>
-    <em>most HTML tags may be used</em>
+    Search Java API Examples with caret select word
+    <br/>
+    Use editor context menu click <em>Search Examples</em> to search java api examples.
     ]]></description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
